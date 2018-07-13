@@ -12,6 +12,11 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.cache.annotation.Cacheable
 import org.springframework.stereotype.Service
 
+/**
+ *
+ * ProductService is a Service class to handle business cases
+ *
+ */
 @Service
 @Slf4j
 class ProductService {
@@ -22,7 +27,7 @@ class ProductService {
     @Autowired
     RestClient restClient
 
-    @Cacheable(value = "product", unless = "#result==null")
+    @Cacheable(value = "product", unless = "#result==null") // to store the values in ehcache
     ProductRepresentation getProductDetails(int productId) {
         try {
             URI uri = new URI("https://redsky.target.com/v2/pdp/tcin/${productId}?excludes=taxonomyy,price," +

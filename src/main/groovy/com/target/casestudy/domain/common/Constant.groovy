@@ -1,5 +1,8 @@
 package com.target.casestudy.domain.common
 
+/**
+ * Constant class
+ */
 class Constant {
 
     public static final String INTERNAL_SERVER_ERROR = "Internal Server Error"

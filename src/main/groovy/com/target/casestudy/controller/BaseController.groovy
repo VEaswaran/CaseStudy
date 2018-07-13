@@ -7,6 +7,11 @@ import groovy.util.logging.Slf4j
 import org.springframework.web.client.HttpClientErrorException
 import org.springframework.web.client.HttpServerErrorException
 
+/**
+ *
+ * BaseController available to handle the exception and generic implementation during enhancement
+ *
+ */
 @Slf4j
 class BaseController {
 

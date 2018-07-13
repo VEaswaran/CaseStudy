@@ -4,7 +4,7 @@ import com.target.casestudy.domain.product.Product
 import com.target.casestudy.representation.ProductRepresentation
 
 /**
- * ProductRepresentationBuilder
+ * ProductRepresentationBuilder is constructed with Builder pattern
  */
 class ProductRepresentationBuilder {
 

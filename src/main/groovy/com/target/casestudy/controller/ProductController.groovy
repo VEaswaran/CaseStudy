@@ -33,6 +33,7 @@ class ProductController extends BaseController {
     @Autowired
     ProductService productService
 
+    //Method to  get product details for the given "ProductSku" and should be integer
     @GetMapping("/products/{id}")
     ResponseEntity getProductData(@PathVariable("id") int id) {
         log.info("Request Id:{}", id)
@@ -49,6 +50,7 @@ class ProductController extends BaseController {
         return new ResponseEntity<>(productRepresentation, status)
     }
 
+    // Method to update product price for the given product sku. Note: sku id should match for both pathVariable and request body
     @PutMapping("/products/{id}")
     ResponseEntity updateProductData(@Valid @RequestBody ProductRequest productRequest, @PathVariable("id") int id) {
         ProductRepresentation productRepresentation = new ProductRepresentation()
