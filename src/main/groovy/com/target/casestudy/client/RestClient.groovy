@@ -11,7 +11,7 @@ class RestClient {
     @Autowired
     RestTemplate restTemplate
 
-    def Map get(URI uri) {
+    Map get(URI uri) {
         try {
             Map map = restTemplate.getForObject(uri, Map)
         } catch (Exception ex) {

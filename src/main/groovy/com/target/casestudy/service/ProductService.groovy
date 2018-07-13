@@ -23,14 +23,13 @@ class ProductService {
     RestClient restClient
 
     @Cacheable(value = "product", unless = "#result==null")
-    public ProductRepresentation getProductDetails(int productId) {
-        ProductRepresentation productRepresentation
+    ProductRepresentation getProductDetails(int productId) {
         try {
             URI uri = new URI("https://redsky.target.com/v2/pdp/tcin/${productId}?excludes=taxonomyy,price," +
                     "promotion,bulk_ship,rating_and_reviews,rating_and_review_statistics,question_answer_statistics")
             Map response = restClient.get(uri)
             Product product = productRepository.findById(productId)
-            product != null ? { throw new NumberNotFoundException() } : null
+            if (product == null){throw new NumberNotFoundException() }
             ProductRepresentationBuilder.builder().withProduct(product, response).build()
         } catch (Exception ex) {
             throw ex
@@ -38,7 +37,7 @@ class ProductService {
     }
 
 
-    public ProductRepresentation updateProductDetails(Product product) {
+    ProductRepresentation updateProductDetails(Product product) {
         ProductRepresentation productRepresentation = null
         try {
             productRepresentation = new ProductRepresentation()

@@ -43,7 +43,8 @@ class ProductController extends BaseController {
             log.info("Successfully processed of request:{}", productRepresentation?.id)
         } catch (Exception ex) {
             handleException(ex, productRepresentation)
-            status = HttpStatus.INTERNAL_SERVER_ERROR
+            status = productRepresentation.errorCode.equalsIgnoreCase(Constant.NUMBER_NOT_FOUND) ?
+                    HttpStatus.OK : HttpStatus.INTERNAL_SERVER_ERROR
         }
         return new ResponseEntity<>(productRepresentation, status)
     }
