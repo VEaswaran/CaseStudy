@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37af4a7e-834d-4dad-b9e0-903838b565f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/target/casestudy/InitialDataSetUp.java" afterPath="$PROJECT_DIR$/src/main/groovy/com/target/casestudy/InitialDataSetUp.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application-development.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/target/casestudy/InitialDataSetUp.class" afterPath="$PROJECT_DIR$/target/classes/com/target/casestudy/InitialDataSetUp.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/target/casestudy/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/target/casestudy/controller/BaseController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/target/casestudy/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/com/target/casestudy/controller/ProductController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/target/casestudy/service/ProductService.class" afterPath="$PROJECT_DIR$/target/classes/com/target/casestudy/service/ProductService.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-development.properties" afterPath="$PROJECT_DIR$/src/main/resources/application-development.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,10 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/target/casestudy/controller/ProductController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
+            <state relative-caret-position="167">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
@@ -116,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-development.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application-development.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-development.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="51">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -198,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/main/groovy/com/target/casestudy/domain/common/Constant.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/target/casestudy/InitialDataSetUp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-development.properties" />
       </list>
     </option>
   </component>
@@ -615,6 +610,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="7" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -635,7 +631,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46557972" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46557972" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1305,14 +1301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-development.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/target/casestudy/InitialDataSetUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1331,8 +1319,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/target/casestudy/controller/ProductController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
+        <state relative-caret-position="167">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-development.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
           <folding />
         </state>
       </provider>
